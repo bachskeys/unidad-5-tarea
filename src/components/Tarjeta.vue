@@ -9,11 +9,11 @@
     class="mb-6 text-center"
   >
     <b-card-text>
-     {{user.name.title}} {{user.name.first}} {{user.name.last}}
-     {{user.gender}}
-     {{user.email}}
-     {{user.phone}}
-     {{user.cell}}
+     {{user.name.title}} {{user.name.first}} {{user.name.last}}<br>
+     {{user.gender}}<br>
+     {{user.email}}<br>
+     {{user.phone}}<br>
+     {{user.cell}}<br>
     </b-card-text>
   </b-card>
 </div>
