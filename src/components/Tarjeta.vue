@@ -6,7 +6,7 @@
     img-top
     tag="article"
     style="max-width: 20rem;"
-    class="mb-6 text-center"
+    class="mb-6 text-center card"
   >
     <b-card-text>
      {{user.name.title}} {{user.name.first}} {{user.name.last}}<br>
@@ -30,5 +30,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+ .card{
+   margin:50px;
+ }
 </style>
